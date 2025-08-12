@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 10;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+nav {
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: blue;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a :hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.05rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.firstSection>div img{
+    width: 100%;
+
+}
+
+.leftSection {
+    font-size: 2rem;
+
+}
+
+.rightSection img {
+    height: 20rem;
+    
+    border-radius: 200px;
+    
+}
+
+.purple {
+    color: orange;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: aqua;
+}
+
+/* About section */
+
+.About {
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    width: 1100px;
+    margin-left:10px ;
+    border: 2px solid none;
+
+}
+
+.img img{
+    border:2px solid none;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+#About{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    border:2px solid none;
+    height: 200px;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 10px;
+    line-height: 1.5rem;
+
+}
+
+#Education{
+    height:350px;
+    width: 1100px;
+    margin-top: 10px;
+    margin-left:10px; 
+    margin-right: 500px;
+    border:2px solid none;
+}
+
+#Education h2 {
+    color: orange;
+}
+
+
+#Resume{
+    display: flex;
+    height:50px;
+    width:300px;
+    border:2px solid none;
+    padding-top:5px;
+    margin-top:5px;
+    margin-left:380px;
+    justify-content: center;
+}
+
+#Resume h2{
+    color:aliceblue;
+    margin-left:40px ;
+    
+}
+
+button  {
+    margin-left:30px;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: rebeccapurple;
+}
+
+button a{
+    color: rebeccapurple;
+    text-decoration: none;
+} 
+button a:hover{
+    font-size: 1.05rem;
+} 
+
+/* Technical Skills */
+
+#Technical-Skills{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 250px;
+    width:1100px;
+    margin-left: 10px;
+    border:2px solid none;
+    margin-top: 40px;
+    line-height: 1.5rem;
+}
+
+#Technical-Skills ul li{
+    
+    margin-left:70px;
+}
+#Technical-Skills h2{
+    color: orange;
+    margin-left: 20px;
+}
+
+.hcj img {
+ border-radius: 100px;
+ margin-left:350px;
+}
+
+/* Projects */
+#Projects{
+    line-height: 2rem;
+    margin-top: 50px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 300px;
+    width: 1100px;
+    margin-left: 10px;
+}
+#Projects h2{
+    color: orange;
+    margin-left: 20px;
+}
+#Projects li  a  {
+    color: white;
+    margin-left: 20px;
+}
+
+#Projects ul li  a{
+    text-decoration: none;
+}
+
+#Projects p {
+    margin-left: 20px;
+}
+
+/* #Projects video {
+    margin-left: 100px;
+    
+
+} */
+
+footer {
+    text-align: center;
+    padding: 8px 0;
+    background: #0635f1;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    background-color: #333;
+    text-align: center;
+    border-radius: 12px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
